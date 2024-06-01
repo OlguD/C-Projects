@@ -1,0 +1,13 @@
+int BALL_POSITION[2] = {940, 580};
+int BALL_INIT_X = BALL_POSITION[0] / 2;
+int BALL_INIT_Y = BALL_POSITION[1] - 10;
+
+const float GRAVITY = 9.8;
+int BALL_MASS = 10;
+int INITIAL_VELOCITY = 0;
+
+
+int LEGEND_POSITION[2] = {530, 10};
+int LEGEND_FONT_SIZE = 20;
+
+int FPS = 60;
